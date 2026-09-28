@@ -12,8 +12,13 @@ type Slide = {
   alt: string;
   titulo: string;
   texto?: string;
-  acciones: { label: string; to: string; variant: "gold" | "onDark" }[];
+  acciones: {
+    label: string;
+    to: "/productos" | "/contacto" | "/quienes-somos";
+    variant: "gold" | "onDark";
+  }[];
 };
+
 
 const slides: Slide[] = [
   {
