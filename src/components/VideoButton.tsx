@@ -56,7 +56,7 @@ export function VideoButton() {
             type="button"
             onClick={() => setOpen(false)}
             aria-label="Cerrar video"
-            className="absolute top-5 right-5 grid size-12 place-items-center rounded-full bg-cream text-primary shadow-lift transition-transform hover:scale-105"
+            className="absolute top-20 right-5 grid size-12 place-items-center rounded-full bg-cream text-primary shadow-lift transition-transform hover:scale-105"
           >
             <X className="size-5" aria-hidden="true" />
           </button>
