@@ -50,3 +50,9 @@ export const navegacion = [
 export function whatsappHref(mensaje: string = contacto.whatsapp.mensaje) {
   return `https://wa.me/${contacto.whatsapp.numero}?text=${encodeURIComponent(mensaje)}`;
 }
+
+/** Video de ejemplo (YouTube). Reemplazar por el ID del video institucional. */
+export const video = {
+  youtubeId: "Q9hFoMARo3A",
+  titulo: "Producción de aguaymanto en el Perú",
+} as const;
