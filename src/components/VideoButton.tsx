@@ -41,7 +41,8 @@ export function VideoButton() {
           role="dialog"
           aria-modal="true"
           aria-label={video.titulo}
-          className="fixed inset-0 z-[70] bg-ink"
+          className="fixed inset-0 bg-ink"
+          style={{ zIndex: 100 }}
           onClick={() => setOpen(false)}
         >
           <iframe
