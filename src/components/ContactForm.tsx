@@ -250,7 +250,7 @@ function Field({
   onChange: (v: string) => void;
   type?: string;
   required?: boolean;
-  error?: string;
+  error?: string | undefined;
   placeholder?: string;
 }) {
   return (
