@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Play, X } from "lucide-react";
+import { createPortal } from "react-dom";
 import { video } from "@/config/site";
 
 /** Botón que abre el video de YouTube a pantalla completa. */
@@ -34,7 +35,8 @@ export function VideoButton() {
         </span>
       </button>
 
-      {open ? (
+      {open
+        ? createPortal(
         <div
           role="dialog"
           aria-modal="true"
@@ -57,8 +59,9 @@ export function VideoButton() {
           >
             <X className="size-5" aria-hidden="true" />
           </button>
-        </div>
-      ) : null}
+        </div>,
+        document.body)
+        : null}
     </>
   );
 }
