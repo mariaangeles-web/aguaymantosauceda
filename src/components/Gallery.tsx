@@ -85,12 +85,12 @@ export function Gallery() {
           </button>
           <figure onClick={(e) => e.stopPropagation()} className="max-w-5xl">
             <img
-              src={galeria[abierto].src}
-              alt={galeria[abierto].alt}
+              src={galeria[abierto]!.src}
+              alt={galeria[abierto]!.alt}
               className="max-h-[78svh] w-full rounded-lg object-contain"
             />
             <figcaption className="mt-4 text-center text-sm text-cream/75">
-              {galeria[abierto].alt}
+              {galeria[abierto]!.alt}
             </figcaption>
           </figure>
           <button
