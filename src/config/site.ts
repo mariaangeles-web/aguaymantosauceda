@@ -22,8 +22,8 @@ export const contacto = {
       "Hola, estoy interesado en sus productos de aguaymanto y quisiera recibir información.",
   },
   telefono: {
-    numero: "+51999999999",
-    mostrar: "[TELÉFONO]",
+    numero: "+51935861121",
+    mostrar: "+51 935 861 121",
   },
   correo: "[CORREO]",
   direccion: "[DIRECCIÓN]",
