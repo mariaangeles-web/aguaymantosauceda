@@ -40,7 +40,7 @@ function Contacto() {
     { icon: MessageCircle, label: "WhatsApp", valor: contacto.whatsapp.mostrar, href: whatsappHref() },
     { icon: Phone, label: "Teléfono", valor: contacto.telefono.mostrar, href: `tel:${contacto.telefono.numero}` },
     { icon: Mail, label: "Correo electrónico", valor: contacto.correo },
-    { icon: MapPin, label: "Dirección", valor: [contacto.direccion, contacto.ciudad].filter(Boolean).join(", ") },
+    { icon: MapPin, label: "Dirección", valor: `${contacto.direccion}, ${contacto.ciudad}` },
     { icon: Clock, label: "Horario de atención", valor: contacto.horario },
   ];
 
