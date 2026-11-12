@@ -16,19 +16,19 @@ export const site = {
 export const contacto = {
   whatsapp: {
     // Formato internacional sin signos: 51 + número
-    numero: "51999999999",
-    mostrar: "[WHATSAPP]",
+    numero: "51935861121",
+    mostrar: "+51 935861121",
     mensaje:
       "Hola, estoy interesado en sus productos de aguaymanto y quisiera recibir información.",
   },
   telefono: {
-    numero: "+51999999999",
-    mostrar: "[TELÉFONO]",
+    numero: "+51935861121",
+    mostrar: "+51 935861121",
   },
-  correo: "[CORREO]",
-  direccion: "[DIRECCIÓN]",
-  ciudad: "[CIUDAD]",
-  horario: "[HORARIO DE ATENCIÓN]",
+  correo: "contactos@amayguantosauceda.com",
+  direccion: "Comunidad Sauseda S/N Limatambo - Anta - Cusco",
+  ciudad: "",
+  horario: "9:00am - 4:00pm",
 } as const;
 
 export const redes = [
