@@ -40,10 +40,10 @@ function QuienesSomos() {
         alt="Campo de aguaymanto en los Andes"
       />
 
-      <section id="nuestra-empresa" className="py-20 lg:py-28">
+      <section id="nuestra-empresa " className="py-20 lg:py-28">
         <div className="container-page grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
           <Reveal>
-            <SectionTitle etiqueta="Nuestra empresa" titulo="Producimos y comercializamos aguaymanto peruano" />
+            <SectionTitle etiqueta="Nuestra empresa exitosa" titulo="Producimos y comercializamos aguaymanto peruano de limatambo" />
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
                 {site.nombreLegal} es una empresa peruana dedicada a la producción y
