@@ -75,7 +75,7 @@ function QuienesSomos() {
 
       <section id="nuestra-historia" className="bg-secondary py-20 lg:py-28">
         <div className="container-page">
-          <SectionTitle align="center" etiqueta="Nuestra historia" titulo="Un camino imnobando para un futuro" />
+          <SectionTitle align="center" etiqueta="Nuestra historia" titulo="Un camino imnobando para un futuro mejor" />
           <ol className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">
             <span className="absolute top-7 right-0 left-0 hidden h-px bg-border md:block" aria-hidden="true" />
             {historia.map((h, i) => (
@@ -116,7 +116,7 @@ function QuienesSomos() {
 
       <section id="valores" className="bg-primary py-20 lg:py-28">
         <div className="container-page">
-          <SectionTitle tone="dark" etiqueta="Nuestros valores" titulo="Lo que guía nuestro trabajo" />
+          <SectionTitle tone="dark" etiqueta="Nuestros valores" titulo="Lo que guía nuestro trabajo de aguymanto" />
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {valores.map((v, i) => (
               <Reveal key={v.titulo} delay={(i % 3) * 90}>
