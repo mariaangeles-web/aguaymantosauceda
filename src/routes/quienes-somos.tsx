@@ -43,7 +43,8 @@ function QuienesSomos() {
       <section id="nuestra-empresa " className="py-20 lg:py-28">
         <div className="container-page grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
           <Reveal>
-            <SectionTitle etiqueta="Nuestra empresa exitosa" titulo="Producimos y comercializamos aguaymanto peruano de limatambo" />
+            <SectionTitle etiqueta="Nuestra empresa exitosa" titulo="Producimos y comercializamos aguaymanto peruano de limatambo
+              " />
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
                 {site.nombreLegal} es una empresa peruana dedicada a la producción y
@@ -74,7 +75,7 @@ function QuienesSomos() {
 
       <section id="nuestra-historia" className="bg-secondary py-20 lg:py-28">
         <div className="container-page">
-          <SectionTitle align="center" etiqueta="Nuestra historia" titulo="Un camino de crecimiento" />
+          <SectionTitle align="center" etiqueta="Nuestra historia" titulo="Un camino imnobando para un futuro" />
           <ol className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">
             <span className="absolute top-7 right-0 left-0 hidden h-px bg-border md:block" aria-hidden="true" />
             {historia.map((h, i) => (
